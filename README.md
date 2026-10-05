@@ -90,10 +90,6 @@ If you use this code, please cite the article:
 }
 ```
 
-## Use of AI tools
-
-The simulation code was written with Claude (Anthropic) and checked by the authors, as stated in the Acknowledgment of the article.
-
 ## License
 
 This code is released under the MIT License (see `LICENSE`).
