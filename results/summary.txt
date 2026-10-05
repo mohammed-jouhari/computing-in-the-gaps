@@ -1,0 +1,39 @@
+== Workload sweep (90-min deadline, 2 clips/h/node)
+     50 GOP  on-time  CA-CGR 0.998  on-sensor 0.998  statistical 0.998  surface MEC 0.081  cloud 0.000
+    100 GOP  on-time  CA-CGR 0.997  on-sensor 0.997  statistical 0.997  surface MEC 0.080  cloud 0.000
+    200 GOP  on-time  CA-CGR 0.996  on-sensor 0.996  statistical 0.993  surface MEC 0.079  cloud 0.000
+    400 GOP  on-time  CA-CGR 0.990  on-sensor 0.988  statistical 0.536  surface MEC 0.079  cloud 0.000
+    800 GOP  on-time  CA-CGR 0.957  on-sensor 0.920  statistical 0.118  surface MEC 0.078  cloud 0.000
+   1600 GOP  on-time  CA-CGR 0.765  on-sensor 0.269  statistical 0.081  surface MEC 0.075  cloud 0.000
+   3200 GOP  on-time  CA-CGR 0.488  on-sensor 0.006  statistical 0.081  surface MEC 0.018  cloud 0.000
+  1600 GOP ratio CA-CGR/on-sensor = 2.84; p95 119 vs 308 min; energy 1658 vs 874 J
+  cloud-centric median delay 10.4 h
+== Load sweep (400 GOP)
+  8 clips/h: CA-CGR 0.859  on-sensor 0.725
+== Deadline sweep (400 GOP): seabed energy per result (J) and on-time ratio
+   0.5 h  CA-CGR   328.7 J (0.119)  on-sensor  273.6 J (0.103)  cloud  9.6 J (0.000)
+   1.0 h  CA-CGR   324.1 J (0.707)  on-sensor  273.6 J (0.684)  cloud  9.6 J (0.000)
+   1.5 h  CA-CGR   283.0 J (0.990)  on-sensor  273.6 J (0.988)  cloud  9.6 J (0.000)
+   3.0 h  CA-CGR   214.2 J (1.000)  on-sensor  273.6 J (1.000)  cloud  9.6 J (0.001)
+   6.0 h  CA-CGR   134.4 J (1.000)  on-sensor  273.6 J (1.000)  cloud  9.6 J (0.029)
+  12.0 h  CA-CGR     3.5 J (1.000)  on-sensor  273.6 J (1.000)  cloud  9.6 J (0.878)
+  12 h: reduction vs on-sensor 98.7 percent; 48 clips/day: 13.1 kJ -> 0.17 kJ
+== Contact loss with a 6-h deadline
+  q=0.0  CA-CGR 1.000 / 134.4 J  no check 1.000 / 134.4 J  on-sensor 1.000 / 273.6 J
+  q=0.1  CA-CGR 0.997 / 162.8 J  no check 0.990 / 151.7 J  on-sensor 1.000 / 273.6 J
+  q=0.2  CA-CGR 0.997 / 273.3 J  no check 0.974 / 168.1 J  on-sensor 0.997 / 273.6 J
+  q=0.3  CA-CGR 0.984 / 278.8 J  no check 0.943 / 185.5 J  on-sensor 0.984 / 273.6 J
+  q=0.4  CA-CGR 0.957 / 279.2 J  no check 0.885 / 200.3 J  on-sensor 0.957 / 273.6 J
+== Contact loss with the 90-min deadline
+  q=0.0  CA-CGR 0.990  on-sensor 0.988
+  q=0.1  CA-CGR 0.832  on-sensor 0.829
+  q=0.2  CA-CGR 0.694  on-sensor 0.690
+  q=0.3  CA-CGR 0.562  on-sensor 0.557
+  q=0.4  CA-CGR 0.424  on-sensor 0.420
+== LEO revisit gap (90-min deadline)
+   10 min  CA-CGR 1.000  on-sensor 1.000
+   20 min  CA-CGR 1.000  on-sensor 1.000
+   30 min  CA-CGR 0.990  on-sensor 0.988
+   60 min  CA-CGR 0.818  on-sensor 0.806
+   90 min  CA-CGR 0.614  on-sensor 0.603
+  120 min  CA-CGR 0.486  on-sensor 0.477
